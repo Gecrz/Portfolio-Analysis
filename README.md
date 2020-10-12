@@ -80,3 +80,13 @@ In this section, we will compile a financial report to demo your calculations to
 
 2. *Retirement Planning:* Summarize the retirement portfolio analysis and include the charts for the Monte Carlo simulation.
 
+### Resources
+
+* [Plaid API Docs](https://plaid.com/docs/)
+
+* [AlpacaDOCS](https://alpaca.markets/docs/)
+
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+
+
