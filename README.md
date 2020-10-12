@@ -1,4 +1,4 @@
-# Portfolio-Analysis using Python, Pandas, Motecarlo Simulations and PLAID API
+# Portfolio-Analysis using Python, Pandas, Motecarlo Simulations, Alpaca and PLAID API
 
 _Note__: The data produced from the api calls will vary depending on the dates used, causing results that vary from those pictured.
 
@@ -55,3 +55,28 @@ Create a Monte Carlo simulation for the retirement portfolio:
 4. Using the ending cumulative returns, plot a histogram of the results and plot the `90%` confidence interval as vertical lines on the histogram.
 
     ![histogram](Images/histogram.png)
+
+#### Retirement Analysis
+
+Use the Monte Carlo simulation data to answer the following questions:
+
+1. What are the expected cumulative returns at `30` years for the `10th`, `50th`, and `90th` percentiles?
+
+2. Given an initial investment of `$20,000`, what is the expected return in dollars at the `10th`, `50th`, and `90th` percentiles?
+
+3. Given the current projected annual income from the Plaid analysis, will a `4%` withdrawal rate meet or exceed that value at the `10th` percentile? Note: This is basically determining if retirement income is equivalent to current income.
+
+4. How would a `50%` increase in the initial investment amount affect the `4%` retirement withdrawal? In other words, what happens if the initial investment had been bigger?
+
+5. (Optional Challenge) Use the Monte Carlo data and calculate the cumulative returns at the `5%`, `50%`, and `95%` quartiles and plot this data as a line chart to see how the cumulative returns change over the life of the investment.
+
+    ![projected-returns.png](Images/projected-returns.png)
+
+### Financial Report
+
+In this section, we will compile a financial report to demo your calculations to the Consumer App Team. The report should be written as a markdown file and include the following sections:
+
+1. **Budget Analysis:** Summarize the transaction data from the budget analysis and include images for each chart and table produced.
+
+2. *Retirement Planning:* Summarize the retirement portfolio analysis and include the charts for the Monte Carlo simulation.
+
